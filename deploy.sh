@@ -5,6 +5,6 @@ cd public
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git eush --force --quiet "git@github.com:timothypratley/where-are-you.git" master:gh-pages
+git push --force --quiet "git@github.com:timothypratley/where-are-you.git" master:gh-pages
 rm -fr .git
 cd ..
